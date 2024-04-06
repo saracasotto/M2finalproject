@@ -1,0 +1,204 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: roboto;
+}
+
+body {
+    background-color: white;
+    width: 100%;
+    height: auto;
+    text-align: center;
+}
+
+/*HEADER CON TITOLO E LOGO*/
+
+header {
+    height: 20vh;
+    text-align: center;
+    font-weight: 300;
+}
+
+h1 {
+    color: purple;
+    cursor: pointer;
+    font-size: 3em;
+    padding-top: 3vh;
+
+}
+
+h2 {
+    color: #ff6f3c;
+
+}
+
+#logo {
+    height: 100px;
+    padding-top: 3vh;
+}
+
+/*BARRA DI NAVIGAZIONE*/
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: auto;
+    padding: 10px;
+}
+
+nav a {
+    text-decoration: none;
+    font-size: 1.3em;
+    font-weight: bold;
+    color: purple;
+    padding: 10px;
+
+}
+
+nav a:hover {
+    color: #ff6f3c;
+    border-bottom: solid #ff6f3c;
+}
+
+/*MAIN CON INPUT E SEARCH BUTTON*/
+
+main {
+    padding: 50px;
+    background-color: rgb(214, 214, 214);
+    padding-bottom: 30px;
+    text-align: center;
+}
+
+#jobsearch {
+    padding: 30px;
+}
+
+
+main p {
+    font-weight: bold;
+    font-size: 1.3em;
+    color: purple;
+    padding: 10px;
+}
+
+main input {
+    font-size: 1.3em;
+    color: purple;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    border: solid #ff6f3c;
+}
+
+
+main input:focus {
+    outline: none;
+    border: solid purple;
+}
+
+main button {
+    font-size: 1em;
+    font-weight: bold;
+    border-radius: 10px;
+    border: solid #ff6f3c;
+    background-color: white;
+    color: purple;
+    padding: 10px;
+    margin-top: 15px;
+}
+
+main button:hover {
+    cursor: pointer;
+    background-color: purple;
+    color: #ff6f3c;
+    font-weight: bold;
+}
+
+main ul {
+    text-decoration: none;
+    list-style-type: none;
+    margin: 10px;
+}
+
+main ul li {
+    padding: 10px;
+    color: purple;
+    font-size: 1.5em;
+}
+
+main ul li:hover {
+    cursor: pointer;
+    color: #ff6f3c;
+    font-weight: bold;
+}
+
+/*IMMAGINE CREATIVA*/
+
+#jobimage {
+    height: 70vh;
+    background-image: url(assets/careerheaderimg2.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+/*LINK APPLICAZIONE*/
+
+#app {
+    background-color: purple;
+    height: 40vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+#app h3 {
+    color: white;
+    font-size: 2em;
+}
+
+#app img {
+    height: 80px;
+    padding: 0 15px;
+    
+}
+
+/*FOOTER CON SOCIAL E INFO AZIENDALI*/
+
+footer {
+    text-align: center;
+    color: purple;
+    font-weight: bold;
+    padding: 20px;
+}
+
+footer img {
+    height: 40px;
+    padding: 20px;
+}
+
+#footerlinks {
+    padding: 20px;
+}
+
+#footerlinks ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+#footerlinks li {
+    list-style-type: none;
+}
+
+#footerlinks a {
+    text-decoration: none;
+    color: purple;
+    font-weight: lighter;
+
+}
+
+#footerlinks a:hover {
+    color: #ff6f3c;
+}
